@@ -1,10 +1,10 @@
 @import "./variables.scss";
 
-main {
+section {
   background-image: url('../public/treats02-min.png');
   background-size: cover;
   background-repeat: repeat;
   background-color: $background-dark;
   width: 100%;
-  height: auto;
+  height: 100%;
 }

@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.wrapper_left {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 10rem;
+}
+
+.wrapper_right {
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 2rem;
+}
+
+.wrapper_right img {
+    width: 100%;
+    height: auto;
+}
