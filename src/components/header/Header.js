@@ -7,7 +7,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <a href="/home">
-          <img src="logo.svg" alt="logo" />
+          <img src="MM_logo.png" alt="MunchMates logo" />
         </a>
       </div>
       <SearchBar />
