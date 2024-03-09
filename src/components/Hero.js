@@ -6,19 +6,22 @@ export default function Hero() {
       <div className={styles.wrapper_left}>
         <div className={styles.top}>
           <h1>
-            DOES YOUR <span className={styles.pet}>PET</span> LOOK AT YOU LIKE{" "}
-            <span className={styles.this}>THIS</span> WHEN YOU FEED THEM?
+            DOES YOUR <span className={styles.span1}>PET</span> LOOK AT YOU LIKE{" "}
+            <span className={styles.span2}>THIS</span> WHEN YOU FEED THEM?
           </h1>
         </div>
         <div className={styles.bottom}>
-          <p>It's time to turn that frown into a smile with MunchMates.</p>
+          <p>
+            It's time to turn that frown into a smile with{" "}
+            <span className={styles.span3}>MunchMates.</span>
+          </p>
           <a href="/redirect">
             <button className={styles.btn}>Shop</button>
           </a>
         </div>
       </div>
       <div className={styles.wrapper_right}>
-        <img src="../doggy-min.png" alt="dog" />
+        <img src="../doggy_main-min.png" alt="dog" />
       </div>
     </main>
   );

@@ -1,3 +1,5 @@
+@import "../variables";
+
 .main {
     display: flex;
     justify-content: center;
@@ -10,10 +12,11 @@
     width: 50%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: flex-start;
     flex-direction: column;
-    padding: 0 10rem;
+    padding-left: 10rem;
+    padding-bottom: 6rem;
 }
 
 .wrapper_right {
@@ -26,6 +29,66 @@
 }
 
 .wrapper_right img {
-    width: 78%;
+    width: 88%;
     height: auto;
+}
+.top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.top h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $text-light;
+    font-family: $baloo;
+    line-height: 0.85;
+    margin-bottom: 2.5rem;
+}
+.span1 {
+    color: $red;
+}
+.span2 {
+    color: $pink;
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.bottom p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $text-light;
+    font-family: $sans;
+    margin-bottom: 2.5rem;
+    margin-right: 5rem;
+}
+.span3 {
+    color: $green;
+}
+.btn {
+    background-color: transparent;
+    border: 3px solid $green;
+    border-radius: 6px;
+    cursor: pointer;
+    color: $green;
+    font-family: $baloo;
+    font-size: 1.6rem;
+    padding: 0.2rem 6.5rem;
+    margin-top: 1rem;
+    box-shadow: 8px 6px 0 1px $pink;
+}
+.btn:hover {
+    transform: scale(0.96);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    border: 3px solid $pink;
+    color: $pink;
+    box-shadow: 8px 6px 0 1px $green;
 }
