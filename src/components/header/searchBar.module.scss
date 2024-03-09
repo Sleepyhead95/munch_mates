@@ -39,6 +39,9 @@
     border: none;
     color: $text-light;
 }
+.text::placeholder {
+    color: $text-light;
+}
 .text:focus {
     outline: none;
 }
@@ -56,4 +59,6 @@
   }
 .btn:hover {
     color: $text-light;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    transform: scale(1.05);
 }
