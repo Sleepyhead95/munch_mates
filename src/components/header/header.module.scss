@@ -6,7 +6,17 @@
     z-index: 3;
     width: 100vw;
     height: auto;
+    position: fixed;
+    transform: translateY(0); // Start visible
+    z-index: 10;
+    transition: 0.3s linear;
 }
+
+  .hidden {
+    position: fixed;
+    transform: translateY(-100%); // Start visible
+    transition: 0.3s linear;
+  }
 .logo {
     padding: 2.5rem 8rem;
 
