@@ -26,7 +26,7 @@ export default function Hero() {
         if (state >= items.length - 1) return 0;
         return state + 1;
       });
-    }, 4000);
+    }, 3200);
     return () => clearInterval(id);
   }, []);
 
