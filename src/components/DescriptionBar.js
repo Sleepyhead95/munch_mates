@@ -4,13 +4,13 @@ export default function DescriptionBar() {
   return (
     <aside className={styles.wrapper}>
       <p>ORGANIC</p>
-      <img src="organic.png" alt="organic" />
+      <img src="../icons/leaf .svg" alt="organic" />
       <p>80% MEAT</p>
-      <img src="organic.png" alt="organic" />
+      <img src="../icons/gluten-free.svg" alt="organic" />
       <p>GLUTEN-FREE</p>
-      <img src="organic.png" alt="organic" />
+      <img src="../icons/chicken.svg" alt="organic" />
       <p>NO ADDITIVES</p>
-      <img src="organic.png" alt="organic" />
+      <img src="../icons/apple.svg" alt="organic" />
       <p>FULL OF VITAMINS</p>
     </aside>
   );
