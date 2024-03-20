@@ -21,7 +21,7 @@ export default function DescriptionBar() {
           <div
             key={index}
             style={{
-              display: "flex", // Ensures text and images are inline
+              display: "flex",
               alignItems: "center",
               justifyContent: "center",
               margin: "5px",
@@ -48,15 +48,6 @@ export default function DescriptionBar() {
           </div>
         ))}
       </Ticker>
-      {/* <p>ORGANIC</p>
-        <img src="../icons/leaf .svg" alt="organic" />
-        <p>80% MEAT</p>
-        <img src="../icons/gluten-free.svg" alt="organic" />
-        <p>GLUTEN-FREE</p>
-        <img src="../icons/chicken.svg" alt="organic" />
-        <p>NO ADDITIVES</p>
-        <img src="../icons/apple.svg" alt="organic" />
-        <p>FULL OF VITAMINS</p> */}
     </aside>
   );
 }
